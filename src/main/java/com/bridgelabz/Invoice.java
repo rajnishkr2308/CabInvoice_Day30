@@ -5,6 +5,8 @@ public class Invoice {
     private double totalFare;
     private double averageFare;
 
+    private int userId;
+
     public Invoice() {
     }
 
@@ -12,6 +14,13 @@ public class Invoice {
         this.totalRides = totalRides;
         this.totalFare = totalFare;
         this.averageFare = averageFare;
+    }
+
+    public Invoice(int totalRides, double totalFare, double averageFare, int userId) {
+        this.totalRides = totalRides;
+        this.totalFare = totalFare;
+        this.averageFare = averageFare;
+        this.userId = userId;
     }
 
     public int getTotalRides() {
@@ -38,6 +47,14 @@ public class Invoice {
         this.averageFare = averageFare;
     }
 
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
+
     @Override
     public String toString() {
         return "Invoice{" +
@@ -52,6 +69,5 @@ public class Invoice {
         if (this == o) return true;
         if (!(o instanceof Invoice invoice)) return false;
         return totalRides == invoice.totalRides && Double.compare(invoice.totalFare, totalFare) == 0 && Double.compare(invoice.averageFare, averageFare) == 0;
-
     }
 }

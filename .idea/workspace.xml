@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="020edcff-7ce3-4372-a53e-490f7e615252" name="Changes" comment="" />
+    <list default="true" id="020edcff-7ce3-4372-a53e-490f7e615252" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/CabInvoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/CabInvoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Invoice.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +46,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CabInvoiceTest.givenMultipleRidesShouldReturnInvoice">
+  <component name="RunManager" selected="JUnit.CabInvoiceTest.givenUserShouldReturnInvoice">
     <configuration name="CabInvoiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CabInvoice" />
       <extension name="coverage">
@@ -91,8 +94,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CabInvoiceTest.givenUserShouldReturnInvoice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CabInvoice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.CabInvoiceTest" />
+      <option name="METHOD_NAME" value="givenUserShouldReturnInvoice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CabInvoiceTest.givenUserShouldReturnInvoice" />
         <item itemvalue="JUnit.CabInvoiceTest.givenMultipleRidesShouldReturnInvoice" />
         <item itemvalue="JUnit.CabInvoiceTest.givenMultipleRidesShouldReturnAggregateFare" />
         <item itemvalue="JUnit.CabInvoiceTest" />
